@@ -1,0 +1,670 @@
+.selector-for-some-widget {
+ box-sizing: content-box;
+}
+
+@font-face {
+   font-family: 'helveticaregular';
+   src: url('webfontkit-20220630-044829/helvetica-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticabold';
+   src: url('webfontkit-20220630-044829/helvetica-bold-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-bold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticabold_oblique';
+   src: url('webfontkit-20220630-044829/helvetica-boldoblique-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-boldoblique-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticacompressed';
+   src: url('webfontkit-20220630-044829/helvetica-compressed-5871d14b6903a-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-compressed-5871d14b6903a-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticaoblique';
+   src: url('webfontkit-20220630-044829/helvetica-oblique-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-oblique-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+@font-face {
+   font-family: 'helveticarounded_bold';
+   src: url('webfontkit-20220630-044829/helvetica-rounded-bold-5871d05ead8de-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-rounded-bold-5871d05ead8de-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticaregular';
+   src: url('webfontkit-20220630-044829/helvetica-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'helveticabold';
+   src: url('webfontkit-20220630-044829/helvetica-bold-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-bold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'helveticabold_oblique';
+   src: url('webfontkit-20220630-044829/helvetica-boldoblique-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-boldoblique-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+
+@font-face {
+   font-family: 'helveticacompressed';
+   src: url('webfontkit-20220630-044829/helvetica-compressed-5871d14b6903a-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-compressed-5871d14b6903a-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+
+@font-face {
+   font-family: 'helveticarounded_bold';
+   src: url('webfontkit-20220630-044829/helvetica-rounded-bold-5871d05ead8de-webfont.woff2') format('woff2'),
+        url('webfontkit-20220630-044829/helvetica-rounded-bold-5871d05ead8de-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+h1,h2,h3,h4,h5,h6{
+ font-family:'helveticabold';
+}
+p,a,span,strong{
+font-family:'helveticaregular';
+}
+
+@media only screen and (max-width: 576px) {
+ .jobs li:last-child{
+   padding-left:0 !important;
+ }
+ .boxes{
+   padding:3vw 3vw !important;
+ }
+ .l-box{
+   padding-bottom:0 !important;
+   margin-bottom:0 !important;
+ }
+ .p-cities{
+   padding-left:9.5vw !important;
+ }
+ .ad-images{
+   max-width: 200px;
+   height:auto;
+   margin-left: 21vw;
+ }
+ .navbar-buttons{
+   display: none;
+ }
+ .btn-postJobs{
+   display:none;
+ }
+ .btn-signIn{
+   display:none;
+ }
+ .map-image{
+   max-width: 20px;
+ }
+ .section-3-span{
+   font-size:10px;
+ }
+ .col-box{
+   width:2vw;
+ }
+ .box-top{
+   display:none;
+ }
+ .move-down{
+ position:unset !important;
+ padding-top:15vw !important;
+ }
+ .p-text{
+  font-size:5vw !important;
+ }
+ .p-text-2{
+   font-size:5vw !important;
+ }
+ .a-text{
+   font-size:2.5vw !important;
+ }
+ .box-text-1{
+   font-size:2vw !important;
+ }
+ .box-text-2{
+   font-size:1.5vw !important;
+ }
+ .p-b{
+   padding-bottom:3vw !important;
+ }
+ .jobs-are{
+   font-size:4vw !important;
+   padding-bottom:0 !important;
+   margin-bottom:0 !important;
+ }
+ .red-button{
+   font-size:2vw !important;
+ }
+ .green-button{
+   font-size:2vw !important;
+ }
+ .white-container{
+   padding-top:10vw !important;
+ }
+ .grey-container{
+   padding-bottom:10vw !important;
+ }
+ .size1{
+   font-size:2vw !important;
+   margin-bottom: 2vw !important;
+ }
+ .size1-2{
+   font-size:2vw !important;
+   margin-top: 2vw !important;
+ }
+ .flag{display:none}
+ .p-size{
+   font-size:2vw !important;
+ }
+ .images{
+   display:none;
+ }
+ .s-1{
+   font-size:4vw !important;
+ }
+ .s-2{
+   font-size:2.5vw !important;
+ }
+ .s-3{
+   font-size:2vw !important;
+ }
+ .s-4{
+   font-size:2.5vw !important;
+   text-align:left !important;
+ }
+ .s-5{
+   font-size:2vw !important;
+   text-align:left !important;
+   line-height:0.1 !important;
+ }
+ .background-image::before{
+   display:none;
+ }
+ .section-3-span{
+   font-size:8vw !important;
+ }
+ .span-1{
+   font-size:6vw !important;
+ }
+ .stand{
+   font-size:8vw !important;
+ }
+ .crowd{
+   font-size:8vw !important;
+ }
+ .free::before{
+ content: '';
+ background:url('assets/images/Union.png') no-repeat 0 0;
+ background-size:contain;
+ display:block;
+ margin-left:20vw;
+ padding-top:1vw;
+}
+.image-overlap{
+max-width:80%;
+height:auto;
+padding:0;
+margin:0 8.75vw;
+}
+.ad-images{
+ padding-right:3vw;
+}
+.map-padding{
+ margin-top: 2vw;
+ padding-left:0 !important;
+ margin-left:0 !important;
+ padding-right:1vw !important;
+}
+.row-side{
+ margin:0 4vw;
+}
+.g-btn{
+ padding-top:0 !important;
+ padding-bottom:0 !important;
+ margin-bottom:0 !important;
+}
+.center-align{
+ text-align:center;
+ padding-bottom:1vw !important;
+}
+.align-image{
+ display:flex;
+ align-content:center;
+ flex-wrap: wrap;
+}
+.ul-cities{
+ width:50%;
+}
+.fj1{
+ padding-top:2vw !important;
+}
+.fj2{
+ margin-top:0;
+ padding-left:1.7vw;
+}
+.r-btn{
+ padding-top: 0 !important;
+ margin-top: 0 !important;
+}
+.free::before{
+ display:none !important;
+}
+.free-styling{
+ font-size:5vw !important;
+ font-weight:400;
+ margin-left:0;
+ margin-right:0;
+ border:1.75px solid;
+ border-radius:4px;
+ color:#B22435;
+ border-color:#B22435;
+ padding:0 0.5vw;
+ text-decoration:none;
+}
+.red-button{
+ padding: 1vw 1.75vw !important;
+}
+.green-button{
+ padding: 1vw 1.75vw !important;
+}
+}
+.fj2{
+ margin-top:1.5vw;
+}
+.btn-postJobs{
+ border-radius: 4px;
+ background-color:#34A853;
+ color: white;
+ font-weight:500;
+ text-decoration:none; 
+ padding:0.5vw 2.5vw;
+ font-size:15px;
+ 
+}
+.btn-signIn{
+ border-radius: 4px;
+ background-color:white;
+ border:2px solid #8EB5EA;
+ color:#2466C3;
+ font-size:12px;
+ font-weight:500;
+ text-decoration:none;
+ padding:0.5vw 1.5vw; 
+ margin-right:1vw;
+}
+.btn-signIn:hover{
+ background-color:#2466C3;
+ color:white;
+ border-color:#2466C3;
+}
+.btn-postJobs:hover{
+ color:white;
+ background-color:#006400;
+}
+.nav-link{
+ color: #ff0000;
+ font-weight: bold;
+}
+.ad-images{
+ width: 100%;
+}
+.bg{
+ background-color:#46467F;
+}
+.map-padding{
+ padding-left: 4vw;
+ margin-top: 2vw;
+ margin-left: 1.5vw;
+}
+.col-padding{
+ padding:0px;
+ 
+}
+.col-right-margin{
+margin-right: 4vw;
+}
+.row-sm-2{
+ padding-left: 10vw;
+ padding-right: 10vw;
+ padding-top: 5vw;
+ padding-bottom: 5vw;
+}
+.job-image2-padding{
+ padding: 1.75vw;
+ 
+}
+.job-image3-padding{
+ padding: 2.75vw;
+ 
+}
+.column-padding-1{
+ padding-left:0px;
+}
+.column-padding-2{
+ padding-left: 0px;
+}
+.column-padding-3{
+ padding-left: 0px;
+}
+.col-sm-2-right{
+ border-right: 3px solid lightblue;
+ height: 1.75vw;
+}
+.search-icon{
+ box-shadow: none;
+ background-color: transparent;
+ border: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ font-style: italic;
+ opacity: 0.25;
+ font-size: 16px;
+ padding: 3px;
+ margin:4px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ font-style: italic;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ font-style: italic;
+}
+.container-jobs{
+ padding:0px;
+}
+.search-img{
+width: 3vw;
+}
+.search-icon{
+ box-shadow: none;
+ background-color: white;
+}
+.jobs{
+text-align: left;
+margin-bottom: 4vw;
+}
+.jobs li{
+ border-right: 2px solid #7574BC;
+ padding-right: 2vw;
+ padding-left: 2vw;
+}
+.jobs li:last-child {
+ border: none;
+}
+.left-side-padding{
+ margin-left: 12.5vw;
+ margin-right: 12vw;
+ margin-top: 5vw;
+}
+.featured-job{
+  text-align: center;
+  margin-top:3vw;
+  font-size: 45px;
+  font-weight: bold;
+  font-family:Helvetica;
+}
+.job-image2-padding{
+ padding: 1.75vw;
+ 
+}
+.job-image3-padding{
+ padding-right: 2.5vw;
+ padding-top: 2.5vw;
+ padding-bottom: 2.75vw;
+ padding-left: 1.75vw; 
+}
+.col-section-4{
+ padding-left:6vw;
+ padding-top:15vw;
+}
+.red-button{
+ background-color: #B22435;
+ border: none;
+ color: white;
+ padding: 1vw 1.75vw;
+ text-align: center;
+ font-size: 0.75vw;
+ border-radius:5vw;
+ text-decoration:none;
+ font-weight:600;
+}
+.add-padding{
+ padding-left:4vw;
+ padding-right:3.5vw;
+ padding-top:3vw;
+}
+.green-button{
+ background-color: #34A853;
+ border: none;
+ color: white;
+ padding: 0.7vw 2.25vw;
+ text-align: center;
+ font-size: 1vw;
+ border-radius:3vw;
+ justify-content:center;
+ text-decoration:none;
+ font-weight:600;
+}
+.green-button:hover{
+ color:white;
+ background-color:#006400;
+}
+.red-button:hover{
+ color:white;
+ background-color:#800000;
+}
+.col-spacing{
+ margin-top:12vw;
+}
+.remove-space{
+padding-left:2vw;
+margin-top:1vw;
+}
+.cont-padding{
+ padding-right:10vw;
+ padding-left:10vw;
+ padding-top:10vw;
+}
+.footer-text{
+ color:white;
+ text-decoration:none;
+ font-weight:400;
+ font-size: 12px;
+}
+ul#footer-icons li {
+ display:inline;
+ padding:1vw;
+}
+.free::before{
+ content: '';
+ background:url('assets/images/Union.png') no-repeat 0 0;
+ background-size:contain;
+ display:block;
+ margin-left:14vw;
+ padding-top:1vw;
+}
+.free-styling{
+ font-size:2vw;
+ font-weight:400;
+ margin-left:0;
+ margin-right:0;
+ border:1.75px solid;
+ border-radius:4px;
+ color:#B22435;
+ border-color:#B22435;
+ padding:0 0.5vw;
+ text-decoration:none;
+}
+.box-top{
+background-image: linear-gradient(to top,white,rgba(111, 0, 255, 0));
+}
+.move-down{
+ position:absolute;
+ top:30vw;
+ left:5.5vw;
+ right:5vw;
+ bottom:0;
+ width: 90vw !important;
+}
+.set-position{
+ position:relative;
+ top:3vw;
+}
+.background-image::before{
+ content: '';
+ background: url('assets/images/featured-image.png') no-repeat 0 0;
+ width:30vw;
+ height:33vw;
+ position:absolute;
+ z-index:-1;
+ background-size:contain;
+ right:16vw;
+}
+.background-image{
+ padding-top:6vw;
+}
+.image-overlap{
+max-width:80%;
+height:auto;
+display:block;
+margin-left:auto;
+}
+.form-control{
+ border-right:0;
+}
+.i-hover:hover{
+ background-color:#FFFFFF;
+ color:#FF0000;
+ border-radius:4vw;
+ padding:1vw;
+ transition:1s;
+}
+.i-hover{
+ color:#FFFFFF;
+}
+.navbar-buttons{
+ display:inline;
+ margin-right:6vw;
+}
+.a-text{
+ color:#3D3C6F;
+ font-weight:500;
+ text-decoration: none;
+ font-size:1.1vw;
+}
+.ul-style{
+ list-style:none;
+}
+.p-text{
+ font-size:3vw;
+ color:#3D3C6F;
+ font-weight:bold;
+}
+.p-text-2{
+ font-size:3vw;
+ color:#3D3C6F;
+ font-weight:bold;
+ line-height:0.5;
+}
+.boxes{
+ background-color:#3D3C6F;
+ padding-top:1.5vw;
+ padding-bottom:1.5vw;
+ padding-left:0.75vw;
+ padding-right:2vw;
+ border-radius:1vw;
+}
+.icons{
+ float:right;
+ display:inline;
+}
+.fa-twitter{
+ color:#197AFF;
+ padding-right:0.3vw;
+}
+.fa-facebook-square{
+ color:#0B5ECF;
+ padding-right:0.3vw;
+}
+.fa-linkedin{
+ color:#197AFF;
+}
+.box-text-1{
+ color:white;
+ font-size:1vw;
+ font-weight:bold;
+ padding:0;
+ margin:0;
+ line-height:1.75;
+}
+.box-text-2{
+ font-size:0.7vw;
+ color:white;
+ padding-top:0.5vw;
+ margin:0;
+}
+.free-styling:hover{
+ color:white;
+ background-color:#B22435;
+}
+.fa-Fb{
+ color:white;
+}
+.fa-Twitter{
+ color:white;
+}
+.fa-Linkedin{
+ color:white;
+}
+.nav-link:hover{
+ text-decoration:underline;
+}
